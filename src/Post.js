@@ -9,7 +9,7 @@ const Post = ({authorName, authorIconURL, likesAmount, description, photoURL, ha
 
     return(
         <div className={PostStyles.dashboardBody}>
-            {viewContext === 'tape'
+            {viewContext.viewType === 'tape'
                 ?
                 <div className={PostStyles.tapeBody}>
                     <div>
