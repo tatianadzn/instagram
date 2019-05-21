@@ -1,0 +1,9 @@
+.tapeBody {
+    width: 900px;
+    margin: auto auto 40px auto;
+}
+
+.buttonBody {
+    width: calc(64px + 105px);
+    margin: auto;
+}

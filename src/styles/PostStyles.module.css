@@ -1,0 +1,40 @@
+.tapeBody {
+    width: 500px;
+    margin: auto auto 40px auto;
+}
+
+.authorIcon{
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.dashboardBody {
+    display: inline;
+}
+
+.dashboardPhoto {
+    width: 280px;
+    margin: 10px 10px 10px 10px;
+}
+
+.authorName{
+    vertical-align: top;
+}
+
+.likeButton{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 8px;
+    background-color: white;
+}
+
+.leftRightSpace {
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.link{
+    color: #306396;
+    margin-right: 5px;
+}
