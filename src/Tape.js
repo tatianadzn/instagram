@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Post from './Post';
 import PostObjects from './PostObjects';
 import TapeStyles from './styles/TapeStyles.module.css'
@@ -13,10 +13,11 @@ export const ViewContext = React.createContext({
 
 
 const Tape = () => {
+    const [viewType, setViewType] = useState('tape');
 
     return(
         <div>
-            <ViewContext.Provider value={'tape'}>
+            <ViewContext.Provider value={{viewType, setViewType}}>
                 <Buttons/>
 
                 <div className={TapeStyles.tapeBody}>

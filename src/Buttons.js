@@ -7,9 +7,8 @@ const Buttons = () => {
     return(
         <div>
             <ViewContext.Consumer>
-
                 {({viewType, setViewType}) => (
-                    <Button onClick={() => setViewType}>Tape</Button>
+                    <Button onClick={() => setViewType('tape')}>Tape</Button>
                 )}
             </ViewContext.Consumer>
             {/*<ViewContext.Consumer>*/}
